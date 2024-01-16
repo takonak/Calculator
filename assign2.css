@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+}
+input {
+    border: 2px solid black;
+    margin: 10px;   
+}
+button{
+    border-radius: 5px;
+    border-color:black;
+}
+div {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 90px;
+    background-color: #d8d8d8;
+}
+h1{
+    text-align: center;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  display: none;
+}

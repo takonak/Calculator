@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assign2.css">
+    <title>Document</title>
+</head>
+<body>
+<div>
+    <!-- <h3>example 1</h3> -->
+    <label></label>
+    <input type="number" placeholder="enter number" style="border-radius: 5px; outline: none; width: 100px;" id="input1"; onkeyup="myfunction()">
+    <select name="" id="operator" style="border-radius:5px; border: solid">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">x</option>
+        <option value="/">/</option>
+    </select>
+   
+    <label></label>
+    <input type="number" placeholder="enter number" style="border-radius: 5px; outline: none; width: 100px;" id="input2" onkeyup="myfunction()">
+
+    <button onclick="calc()" onmouseover="mouseover(this)" onmouseout="mouseout(this)" >Submit</button>
+    <input type="number" name="" id="result" style="border-radius: 5px; outline: none; width: 100px;" >
+    <!-- <h3>example 2</h3>
+    <input placeholder="enter number" style="border-radius: 6px; outline: none;"  id="input3" type="number">
+    <input placeholder="enter number" style="border-radius: 6px; outline: none;"  id="input4" type="number">
+    <button onclick="test()">SUBMIT</button>
+    <h1 id="header"></h1> -->
+</div>
+    <script src="./assign2.js"></script>
+</body>
+</html>
